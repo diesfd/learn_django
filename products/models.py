@@ -2,8 +2,8 @@ from django.db import models
 
 # Create your models here.
 class Product(models.Model):
-    title = models.CharField(max_length = 12)
-    description = models.TextField(blank = True, null = True)
-    price = models.DecimalField(decimal_places = 2, max_digits = 100)
-    summary = models.TextField(default = 'this is cool!')
-    Feature = models.BooleanField(default = True)
+    title = models.CharField(max_length=12)
+    description = models.TextField(blank=True, null=True)
+    price = models.DecimalField(decimal_places=2, max_digits=100)
+    summary = models.TextField(default='this is cool!')
+    Feature = models.BooleanField(default=True)
